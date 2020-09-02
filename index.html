@@ -1,0 +1,82 @@
+<html>
+    <head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <style>
+        /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.flex-container {
+    display: flex;
+  }
+      </style>
+      
+        <link rel="stylesheet" href="css/product_landing_page.css">
+    </head>
+    
+    <body>
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <center>
+        <header id="header">
+           
+          <nav id="nav-bar">
+            <a class="nav-link" href="#pricing">pricing</a>
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#why?">Why?</a> 
+            </nav>
+            <h1>Poncey Pretentious Trash</h1>
+          <img
+          id="header-img"
+          src="https://media.2oceansvibe.com/wp-content/uploads/2018/09/GOOPEDIT1.jpg"
+          alt="trash"/>
+           
+        </header>
+    
+    
+        <div class="flex-container"></div>
+        <div>It's Poncey</div>
+        <div>It's Pretencious</div>
+        <div>It's also trash</div>
+     
+
+    <iframe 
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/MYJz4okRpUk"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+    ></iframe>
+
+    <section id="pricing">$1000. It could all be yours for this extortionate price</section>
+    <section id="features">none</section>
+    <section id="why?">Because "We want you to want the things that we are want to want you to want."</section>
+      
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+    
+      <input id="email" type="email" name="email" placeholder="Enter you Email address" required>
+      <input id="submit" type="submit" value="submit">
+    </form>
+  </center>
+    </body>
+</html>
